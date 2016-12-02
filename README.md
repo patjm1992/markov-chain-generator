@@ -50,7 +50,14 @@ Usage
 
 Process:
 
-1. Take a `.txt` file and pass it into ``
+1. The first step is building the chains of words, which is simply a Python dictionary of word pairs and a list of all words that follow that specific pair. Rather than rebuild this each time text is requested to be generated, `to_json.py` dumps a Python dictionary object into a JSON file so the table is built exactly once. It's done like so:
+```bash
+$ python3 to_json.py -f <input.txt> -o <output.json>
+```
+2. With the Python object precomputed and saved, `markov.py` can generate text from the JSON like so:
+```bash
+$ python3 markov.py -f <output.json> -wc <desired word count>
+```
 
 
 Sample texts
@@ -62,8 +69,9 @@ I've jsonified them
 Related
 -------
 
-Issues
+Issues/To-Do
 ------
 
 * Handling errant 'smart quotes' and parentheticals
 * Handling chapter titles
+* Optional write output text to file
