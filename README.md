@@ -63,8 +63,7 @@ $ python3 markov.py -f <output.json> -wc <desired word count>
 Sample texts
 ------------
 
-this folder contains some texts files
-I've jsonified them
+I've included some text files for some books that are in the public domain as well as their JSONified markov-chained versions.
 
 Related
 -------
