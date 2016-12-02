@@ -55,12 +55,11 @@ Process:
 ```bash
 $ python3 to_json.py -f <input.txt> -o <output.json>
 ```
-</li><li>
+
 * With the Python object precomputed and saved, `markov.py` can generate text from the JSON like so:
 ```bash
 $ python3 markov.py -f <output.json> -wc <desired word count>
-```</li>
-</ol>
+```
 
 Sample texts
 ------------
