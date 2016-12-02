@@ -9,7 +9,7 @@
 Markov chains can be used to generate text that's ...
 
 Graphically, they work like:
-![Graphic of a markov chain of words](https://imgur.com/a/TKgzz)
+![stack Overflow](http://lmsotfy.com/so.png)
 
 Sample outputs
 --------------
