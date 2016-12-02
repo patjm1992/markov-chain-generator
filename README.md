@@ -1,15 +1,8 @@
 # markov-text-generator
 
-**Mar·kov chain** <br>
-/ˈmärˌkôf,-ˌkôv/ <br>
-*noun* `STATISTICS`
+[Markov chains](https://en.wikipedia.org/wiki/Markov_chain) can be used to generate text that's (mostly) syntactically correct but often non-sensical.
 
-<p><small>A stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event.</small></p>
-
-Markov chains can be used to generate text that's ...
-
-Graphically, they work like:
-![stack Overflow](http://lmsotfy.com/so.png)
+This repository provides Python modules for generating markov text from any corpus you'd like.
 
 Sample outputs
 --------------
