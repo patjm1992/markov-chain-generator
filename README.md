@@ -1,0 +1,75 @@
+# markov-text-generator
+
+**Mar·kov chain** <br>
+/ˈmärˌkôf,-ˌkôv/ <br>
+*noun* `STATISTICS`
+
+<p><small>A stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event.</small></p>
+
+Markov chains can be used to generate text that's ...
+
+Graphically, they work like:
+![Graphic of a markov chain of words](https://imgur.com/a/TKgzz)
+
+Sample outputs
+--------------
+
+_Emma_ by Jane Austen:
+>House was taken for May and June. She was disgustingly, was suspiciously reserved. If any thing tolerable. Here was a pretty sketch of the connexion? It was an air!
+
+<br>
+
+_Infinite Jest_ by David Foster Wallace:
+>He won't take down Handle-Tie trashbags to clear the noise of being part of the neck. Gately imagines himself gathering this Wild Conceits guy totally strafed as he pictured himself with a dawdler's heavy tread the cement floor of Pat's screaming like water off a whole level of power the bad lads called me. They were right there, Boo, I'm starting to drop into its screen blinking ERROR at the front door and then P.E.T.
+
+>The T at night, for the first time: then set your crosshairs and she is not a lob. It's a Boston colored thing on the note. His side up.
+
+>His eyes crossing and uncrossing their legs apart and Lenz utilized akido to break your heart. She was pretty definitely an alcoholic and addict and burglar, not to overstep...
+
+<br>
+
+Of course, _Infinite Jest_ has some really strange passages (Wardine be cry), so weird results occur:
+
+>Cartridge-fees went down with Wardine. Be give Wardine candy and 5s. Be stand in the shattuck suffer from excessive want, fear, censorship of speech and thought.
+
+<br>
+
+
+
+_Ulysses_ by James Joyce sounds the same:
+>You there. Catch aholt. Caraway seed to carry away. Twig?
+
+>Poor story to tell you? As true as you’re there. O, commend me to fly in his free left hand under her nape, you’ll toss me all. O wonder! Coolsoft with ointments her hand crushed by old Tom Wall’s son. His first bow to the centrifugal departer? By inserting the.
+
+<br>
+
+_War and Peace_ by Leo Tolstoy
+>She is offended by the sound of the impending danger. Formerly, when going into action, gentlemen! Mack has surrendered with his hands. In their narration events occur solely by!
+
+> Geographical and economic conditions, then the words of abuse, dreadful words, ejaculated one after another in silence, nodded with approval or shook his head and began sobbing, with tears!
+
+<br>
+
+I've gotten the most consistently "normal"-sounding output from _War and Peace_.
+
+Usage
+-----
+
+Process:
+
+1. Take a `.txt` file and pass it into ``
+
+
+Sample texts
+------------
+
+this folder contains some texts files
+I've jsonified them
+
+Related
+-------
+
+Issues
+------
+
+* Handle parentheticals
